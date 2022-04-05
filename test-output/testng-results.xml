@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-05T12:50:43 IST" name="Suite" finished-at="2022-04-05T12:51:23 IST" duration-ms="40478">
+    <groups>
+    </groups>
+    <test started-at="2022-04-05T12:50:43 IST" name="Test" finished-at="2022-04-05T12:51:23 IST" duration-ms="40478">
+      <class name="com.qc.test.LoginTest2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:50:35 IST" name="setup" finished-at="2022-04-05T12:50:41 IST" duration-ms="5574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:02 IST" name="getXpath" finished-at="2022-04-05T12:51:02 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:02 IST" name="doLogin" data-provider="LoginData" finished-at="2022-04-05T12:51:02 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[both are empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[both empty error msg should be display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:02 IST" name="doAssert" finished-at="2022-04-05T12:51:04 IST" duration-ms="2028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:04 IST" name="getXpath" finished-at="2022-04-05T12:51:04 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:04 IST" name="doLogin" data-provider="LoginData" finished-at="2022-04-05T12:51:05 IST" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email id is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[empty email error msg should be display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:05 IST" name="doAssert" finished-at="2022-04-05T12:51:07 IST" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:07 IST" name="getXpath" finished-at="2022-04-05T12:51:07 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:07 IST" name="doLogin" data-provider="LoginData" finished-at="2022-04-05T12:51:07 IST" duration-ms="238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[password is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password empty eror msg should be display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:07 IST" name="doAssert" finished-at="2022-04-05T12:51:09 IST" duration-ms="2019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:09 IST" name="getXpath" finished-at="2022-04-05T12:51:10 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:10 IST" name="doLogin" data-provider="LoginData" finished-at="2022-04-05T12:51:10 IST" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email id is invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid email error msg should be display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:10 IST" name="doAssert" finished-at="2022-04-05T12:51:12 IST" duration-ms="2032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:12 IST" name="getXpath" finished-at="2022-04-05T12:51:12 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:12 IST" name="doLogin" data-provider="LoginData" finished-at="2022-04-05T12:51:12 IST" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[password is invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invlid password error msg should be display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:12 IST" name="doAssert" finished-at="2022-04-05T12:51:14 IST" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:14 IST" name="getXpath" finished-at="2022-04-05T12:51:15 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:15 IST" name="doLogin" data-provider="LoginData" finished-at="2022-04-05T12:51:15 IST" duration-ms="212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[both are invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[both invalid error msg should be display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:15 IST" name="doAssert" finished-at="2022-04-05T12:51:17 IST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:17 IST" name="getXpath" finished-at="2022-04-05T12:51:17 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:17 IST" name="doLogin" data-provider="LoginData" finished-at="2022-04-05T12:51:19 IST" duration-ms="1393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[both are valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user should be on Dashboard page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:19 IST" name="doAssert" finished-at="2022-04-05T12:51:21 IST" duration-ms="2418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:21 IST" name="getXpath" finished-at="2022-04-05T12:51:21 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:21 IST" name="doLogin" data-provider="LoginData" finished-at="2022-04-05T12:51:21 IST" duration-ms="240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:21 IST" name="doAssert" finished-at="2022-04-05T12:51:23 IST" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qc.test.LoginTest2@50caa560]" started-at="2022-04-05T12:51:24 IST" name="CloseBrowser" finished-at="2022-04-05T12:51:24 IST" duration-ms="250" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Queue codes | Log in] but found [Queue Codes | Log in],
+expected [Queue codes | Log in] but found [Queue Codes | Log in],
+expected [Queue codes | Log in] but found [Queue Codes | Log in],
+expected [Queue codes | Log in] but found [Queue Codes | Log in],
+expected [Queue codes | Log in] but found [Queue Codes | Log in],
+expected [Queue codes | Log in] but found [Queue Codes | Log in],
+expected [Queue Codes | Dashboar] but found [Queue Codes | Dashboard],
+expected [Queue codes | Log in] but found [Queue Codes | Log in]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Queue codes | Log in] but found [Queue Codes | Log in],
+expected [Queue codes | Log in] but found [Queue Codes | Log in],
+expected [Queue codes | Log in] but found [Queue Codes | Log in],
+expected [Queue codes | Log in] but found [Queue Codes | Log in],
+expected [Queue codes | Log in] but found [Queue Codes | Log in],
+expected [Queue codes | Log in] but found [Queue Codes | Log in],
+expected [Queue Codes | Dashboar] but found [Queue Codes | Dashboard],
+expected [Queue codes | Log in] but found [Queue Codes | Log in]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qc.test.BaseClass2.tearDown(BaseClass2.java:41)
+at com.qc.test.LoginTest2.CloseBrowser(LoginTest2.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:344)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.qc.test.LoginTest2 -->
+      <class name="com.qc.test.Registration">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:41 IST" name="setup" finished-at="2022-04-05T12:50:43 IST" duration-ms="2438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="ClickOnRegistrationLink()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:43 IST" name="ClickOnRegistrationLink" finished-at="2022-04-05T12:50:43 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnRegistrationLink -->
+        <test-method is-config="true" signature="getXpathforRegistration()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:44 IST" name="getXpathforRegistration" finished-at="2022-04-05T12:50:44 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpathforRegistration -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:44 IST" name="doRegister" data-provider="registerData" finished-at="2022-04-05T12:50:45 IST" duration-ms="486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="doAssertForRegistration()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:45 IST" name="doAssertForRegistration" finished-at="2022-04-05T12:50:47 IST" duration-ms="2032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssertForRegistration -->
+        <test-method is-config="true" signature="getXpathforRegistration()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:47 IST" name="getXpathforRegistration" finished-at="2022-04-05T12:50:47 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpathforRegistration -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:47 IST" name="doRegister" data-provider="registerData" finished-at="2022-04-05T12:50:48 IST" duration-ms="535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[queue@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="doAssertForRegistration()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:48 IST" name="doAssertForRegistration" finished-at="2022-04-05T12:50:50 IST" duration-ms="2009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssertForRegistration -->
+        <test-method is-config="true" signature="getXpathforRegistration()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:50 IST" name="getXpathforRegistration" finished-at="2022-04-05T12:50:50 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpathforRegistration -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:50 IST" name="doRegister" data-provider="registerData" finished-at="2022-04-05T12:50:51 IST" duration-ms="454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[queue@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="doAssertForRegistration()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:51 IST" name="doAssertForRegistration" finished-at="2022-04-05T12:50:53 IST" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssertForRegistration -->
+        <test-method is-config="true" signature="getXpathforRegistration()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:53 IST" name="getXpathforRegistration" finished-at="2022-04-05T12:50:53 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpathforRegistration -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:53 IST" name="doRegister" data-provider="registerData" finished-at="2022-04-05T12:50:54 IST" duration-ms="547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="doAssertForRegistration()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:54 IST" name="doAssertForRegistration" finished-at="2022-04-05T12:50:56 IST" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssertForRegistration -->
+        <test-method is-config="true" signature="getXpathforRegistration()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:56 IST" name="getXpathforRegistration" finished-at="2022-04-05T12:50:56 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpathforRegistration -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:56 IST" name="doRegister" data-provider="registerData" finished-at="2022-04-05T12:50:56 IST" duration-ms="465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[queeu@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="doAssertForRegistration()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:56 IST" name="doAssertForRegistration" finished-at="2022-04-05T12:50:58 IST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssertForRegistration -->
+        <test-method is-config="true" signature="getXpathforRegistration()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:58 IST" name="getXpathforRegistration" finished-at="2022-04-05T12:50:59 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpathforRegistration -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:59 IST" name="doRegister" data-provider="registerData" finished-at="2022-04-05T12:50:59 IST" duration-ms="433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[queeu@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="doAssertForRegistration()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:50:59 IST" name="doAssertForRegistration" finished-at="2022-04-05T12:51:02 IST" duration-ms="2442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssertForRegistration -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qc.test.Registration@740773a3]" started-at="2022-04-05T12:51:24 IST" name="CloseBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1649143284972" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.qc.test.Registration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

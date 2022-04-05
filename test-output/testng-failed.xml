@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qc.test.LoginTest2">
+        <methods>
+          <include name="doLogin"/>
+          <include name="doAssert"/>
+          <include name="getXpath"/>
+          <include name="CloseBrowser"/>
+          <include name="doSetup"/>
+        </methods>
+      </class> <!-- com.qc.test.LoginTest2 -->
+      <class name="com.qc.test.Registration">
+        <methods>
+          <include name="ClickOnRegistrationLink"/>
+          <include name="doAssertForRegistration"/>
+          <include name="CloseBrowser"/>
+          <include name="doRegister"/>
+          <include name="getXpathforRegistration"/>
+          <include name="doSetup"/>
+        </methods>
+      </class> <!-- com.qc.test.Registration -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
